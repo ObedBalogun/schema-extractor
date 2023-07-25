@@ -1,0 +1,186 @@
+{
+    "battle": {
+        "id": {
+            "type": "STRING",
+            "tag": "id",
+            "description": "",
+            "required": false
+        },
+        "name": {
+            "type": "STRING",
+            "tag": "name",
+            "description": "",
+            "required": false
+        },
+        "orientation": {
+            "type": "STRING",
+            "tag": "orientation",
+            "description": "",
+            "required": false
+        },
+        "settings": {
+            "minParticipants": {
+                "type": "INTEGER",
+                "tag": "minParticipants",
+                "description": "",
+                "required": false
+            },
+            "maxParticipants": {
+                "type": "INTEGER",
+                "tag": "maxParticipants",
+                "description": "",
+                "required": false
+            },
+            "battleType": {
+                "type": "STRING",
+                "tag": "battleType",
+                "description": "",
+                "required": false
+            },
+            "wagerType": {
+                "type": "STRING",
+                "tag": "wagerType",
+                "description": "",
+                "required": false
+            },
+            "countdown": {
+                "type": "INTEGER",
+                "tag": "countdown",
+                "description": "",
+                "required": false
+            },
+            "duration": {
+                "type": "INTEGER",
+                "tag": "duration",
+                "description": "",
+                "required": false
+            },
+            "archetype": {
+                "name": {
+                    "type": "STRING",
+                    "tag": "name",
+                    "description": "",
+                    "required": false
+                },
+                "iconId": {
+                    "type": "STRING",
+                    "tag": "iconId",
+                    "description": "",
+                    "required": false
+                }
+            }
+        },
+        "status": {
+            "type": "STRING",
+            "tag": "status",
+            "description": "",
+            "required": false
+        },
+        "creationTime": {
+            "type": "INTEGER",
+            "tag": "creationTime",
+            "description": "",
+            "required": false
+        },
+        "startTime": {
+            "type": "INTEGER",
+            "tag": "startTime",
+            "description": "",
+            "required": false
+        },
+        "endTime": {
+            "type": "INTEGER",
+            "tag": "endTime",
+            "description": "",
+            "required": false
+        },
+        "creator": {
+            "id": {
+                "type": "STRING",
+                "tag": "id",
+                "description": "",
+                "required": false
+            },
+            "nickname": {
+                "type": "STRING",
+                "tag": "nickname",
+                "description": "",
+                "required": false
+            },
+            "title": {
+                "type": "STRING",
+                "tag": "title",
+                "description": "",
+                "required": false
+            },
+            "accountType": {
+                "type": "STRING",
+                "tag": "accountType",
+                "description": "",
+                "required": false
+            },
+            "countryCode": {
+                "type": "STRING",
+                "tag": "countryCode",
+                "description": "",
+                "required": false
+            },
+            "orientation": {
+                "type": "STRING",
+                "tag": "orientation",
+                "description": "",
+                "required": false
+            }
+        },
+        "participants": {
+            "type": "ARRAY",
+            "tag": "participants",
+            "description": "",
+            "required": false
+        }
+    },
+    "joiner": {
+        "id": {
+            "type": "STRING",
+            "tag": "id",
+            "description": "",
+            "required": false
+        },
+        "nickname": {
+            "type": "STRING",
+            "tag": "nickname",
+            "description": "",
+            "required": false
+        },
+        "title": {
+            "type": "STRING",
+            "tag": "title",
+            "description": "",
+            "required": false
+        },
+        "accountType": {
+            "type": "STRING",
+            "tag": "accountType",
+            "description": "",
+            "required": false
+        },
+        "countryCode": {
+            "type": "STRING",
+            "tag": "countryCode",
+            "description": "",
+            "required": false
+        },
+        "orientation": {
+            "type": "STRING",
+            "tag": "orientation",
+            "description": "",
+            "required": false
+        }
+    },
+    "participantIds": {
+        "type": "ENUM ARRAY",
+        "tag": "participantIds",
+        "description": "",
+        "required": false
+    }
+}

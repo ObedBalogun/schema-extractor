@@ -1,0 +1,70 @@
+{
+    "user": {
+        "id": {
+            "type": "STRING",
+            "tag": "id",
+            "description": "",
+            "required": false
+        },
+        "nickname": {
+            "type": "STRING",
+            "tag": "nickname",
+            "description": "",
+            "required": false
+        },
+        "title": {
+            "type": "STRING",
+            "tag": "title",
+            "description": "",
+            "required": false
+        },
+        "accountType": {
+            "type": "STRING",
+            "tag": "accountType",
+            "description": "",
+            "required": false
+        },
+        "countryCode": {
+            "type": "STRING",
+            "tag": "countryCode",
+            "description": "",
+            "required": false
+        },
+        "orientation": {
+            "type": "STRING",
+            "tag": "orientation",
+            "description": "",
+            "required": false
+        }
+    },
+    "time": {
+        "type": "INTEGER",
+        "tag": "time",
+        "description": "",
+        "required": false
+    },
+    "acl": {
+        "type": "ARRAY",
+        "tag": "acl",
+        "description": "",
+        "required": false
+    },
+    "publicFeed": {
+        "type": "INTEGER",
+        "tag": "publicFeed",
+        "description": "",
+        "required": false
+    },
+    "internationalCountries": {
+        "type": "ENUM ARRAY",
+        "tag": "internationalCountries",
+        "description": "",
+        "required": false
+    },
+    "topTraderFeed": {
+        "type": "INTEGER",
+        "tag": "topTraderFeed",
+        "description": "",
+        "required": false
+    }
+}
